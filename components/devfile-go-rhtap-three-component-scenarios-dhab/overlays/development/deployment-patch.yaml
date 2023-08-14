@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-go-rhtap-three-component-scenarios-dhab
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-sruv-tenant/mc-three-scenarios/devfile-go-rhtap-three-component-scenarios-dhab@sha256:748590d83d55322b46518341443720003dafc42d2905ec1844ebb04b0f0db065
+        name: my-go
+        resources: {}
+status: {}
